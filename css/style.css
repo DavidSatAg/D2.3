@@ -1,8 +1,9 @@
 .container {
-  width: 960px;
-  margin: 100px auto;
-  padding-right: 400px;
-  padding-left: 400px;
+  width: 59%;
+  margin: auto;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding: 60px;
 }
 
 body {
@@ -11,53 +12,60 @@ body {
   font-weight: 400;
   color: #293651;
   text-align: left;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 45px;
 }
-h2 {
+
+.apresentacao {
   font-family: "Montserrat", sans-serif;
   color: #519d85;
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 600;
+  font-size: 40px;
   letter-spacing: 0.3rem;
 }
-h3 {
+
+.descricao_apresentacao {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 40px;
   letter-spacing: 0.2rem;
   margin-bottom: 38px;
 }
-p {
+
+.introducao {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   color: #7f878f;
-  font-size: 27px;
-  width: 860px;
+  font-size: 35px;
 }
-button {
+
+.botao_mais_informacoes {
   color: white;
   background: #00a78e;
   padding: 18px 46px;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "Montserrat", sans-serif;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 0;
 }
+
 .centralizado {
   text-align: center;
 }
+
 img {
   width: 45%;
 }
-h4 {
+
+.why_you_hire_me {
   font-size: 60px;
   font-weight: 600;
   margin-top: 50px;
   margin-bottom: 10px;
 }
-h5 {
+
+.titulo_projetos {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -65,11 +73,13 @@ h5 {
   display: inline-block;
   width: 80%;
 }
+
 .descricao {
   font-weight: lighter;
   color: #505f7f;
-  font-size: 27px;
+  font-size: 35px;
 }
+
 .quebra_linha,
 .quebra_linha2,
 .quebra_linha3 {
@@ -80,18 +90,23 @@ h5 {
   border-radius: 3px;
   margin-bottom: 0px;
 }
+
 .quebra_linha {
   width: 110px;
 }
+
 .quebra_linha2 {
   width: 15px;
 }
+
 .quebra_linha3 {
   width: 10px;
 }
+
 div {
   background-color: white;
 }
+
 .caixinha {
   color: white;
   background-color: white;
@@ -101,6 +116,7 @@ div {
   margin: 0px;
   padding: 0px;
 }
+
 .barrinha85 {
   background-color: #2db087;
   color: white;
@@ -110,6 +126,7 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .barrinhac85 {
   background-color: #eeeff2;
   color: white;
@@ -119,11 +136,13 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .c85 {
   position: relative;
   left: 84.6%;
   bottom: 40px;
 }
+
 .barrinha75 {
   background-color: #2db087;
   color: white;
@@ -133,6 +152,7 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .barrinhac75 {
   background-color: #eeeff2;
   color: white;
@@ -142,11 +162,13 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .c75 {
   position: relative;
   left: 74.6%;
   bottom: 40px;
 }
+
 .barrinha90 {
   background-color: #2db087;
   color: white;
@@ -156,6 +178,7 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .barrinhac90 {
   background-color: #eeeff2;
   color: white;
@@ -165,11 +188,13 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .c90 {
   position: relative;
   left: 89.6%;
   bottom: 40px;
 }
+
 .barrinha65 {
   background-color: #2db087;
   color: white;
@@ -179,6 +204,7 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .barrinhac65 {
   background-color: #eeeff2;
   color: white;
@@ -188,14 +214,17 @@ div {
   display: inline-block;
   margin: 0px;
 }
+
 .c65 {
   position: relative;
   left: 64.6%;
   bottom: 40px;
 }
+
 .b {
   height: 40px;
 }
+
 .porcentagem {
   display: inline-block;
   width: 19%;
@@ -203,6 +232,7 @@ div {
   position: relative;
   top: 15px;
 }
+
 .projetos {
   font-size: 55px;
   font-weight: 600;
@@ -210,59 +240,52 @@ div {
   padding: 50px 0px 0px 0px;
   margin-bottom: 20px;
 }
-.bloco {
+
+.div_projetos {
   background-color: #f6f6f6;
-  width: 1760px;
+  width: 100%;
   margin: auto;
   text-align: center;
   position: relative;
 }
+
 .blocos {
-  width: 600px;
-  height: 520px;
+  width: 34%;
+  height: 445px;
   filter: drop-shadow(0 0 0.75rem rgb(227, 227, 227));
   border-radius: 12px;
   display: inline-block;
   margin: 25px;
   background-color: #f8f8f8;
+  text-align: left;
+  padding: 35px;
 }
+
 .bl1 {
   margin-top: 100px;
 }
+
 .titulo {
   font-size: 40px;
   font-weight: 600;
   color: #293651;
   position: relative;
-  right: 220px;
 }
+
 .icone {
   width: 50%;
   position: relative;
-  top: 15px;
-  right: 30px;
 }
-#t2 {
-  position: relative;
-  right: 250px;
-}
-#t3 {
-  position: relative;
-  right: 240px;
-}
-#t4 {
-  position: relative;
-  right: 140px;
-}
+
 .descrição_habilidades {
   width: 500px;
   text-align: left;
-  position: relative;
-  left: 50px;
+  font-size: 28px;
 }
+
 .contatos {
   background-color: #00a78e;
-  width: 1600px;
+  width: 86%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
@@ -313,7 +336,7 @@ h6 {
   color: #293651;
   background-color: #f6f6f6;
   height: 500px;
-  width: 1760px;
+  width: 100%;
   text-align: center;
   margin: auto;
 }
@@ -324,9 +347,10 @@ h6 {
   margin: 50px;
   bottom: 350px;
 }
+
 .opções {
   display: inline-block;
-  width: 13%;
+  width: 14%;
   height: 150px;
   text-align: center;
   position: relative;
@@ -352,6 +376,7 @@ h6 {
   bottom: 300px;
   background: #f6f6f6;
 }
+
 spam {
   color: #00a78e;
 }
