@@ -20,7 +20,7 @@ body {
 .apresentacao {
   font-family: "Montserrat", sans-serif;
   color: #519d85;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 40px;
   letter-spacing: 0.3rem;
 }
@@ -311,7 +311,7 @@ h6 {
   color: #00a78e;
   background-color: white;
   position: relative;
-  right: 620px;
+  right: 443px;
 }
 
 .branco2 {
